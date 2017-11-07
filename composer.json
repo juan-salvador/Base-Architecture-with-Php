@@ -1,0 +1,21 @@
+{
+    "name": "juan/app",
+    "authors": [
+        {
+            "name": "Juan Carlos",
+            "email": "jc27341@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Application\\" : "Application/",
+            "Core\\": "Core/",
+            "Domain\\" : "Domain/",
+            "Infraestructure\\" : "Infraestructure/"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "vlucas/phpdotenv": "^2.3"
+    }
+}
